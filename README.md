@@ -1,4 +1,7 @@
 # secret-message
+
+Uses Fernet Encryption
+
 Made With 💖 and Py
 
 ### <<< Please dont copy without Credits >>> @cc insta- abhinav.ranish or github - abhinav-ranish
