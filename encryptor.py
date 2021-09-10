@@ -30,7 +30,7 @@ while True:
     dpshacksyou = input("Do You Want to Encode Or Decode The Message? \n(Encode = e, Decode = d, quit = q) \n")
     if dpshacksyou == "e":
         gg = input("Enter the text you want to encode. \n")
-        encoded_text = gg.encode()
+        encoded_text = gg.encode()#https://stackoverflow.com/a/69043349/14836433
         token = dpsstalks.encrypt(encoded_text)
         print("This is Your Encrypted Message. \n"+(token.decode()))
         ghost = input("\n Press Enter To Continue")
