@@ -1,9 +1,6 @@
 from cryptography.fernet import Fernet as fnet
 import os as os
 import pygame as game
-#from playsound import playsound as sexy
-#sexy('https://cdn.discordapp.com/attachments/831569914535739393/877087237743996938/y2mate.com_-_Jonas_Brothers_Hesitate_Lyrics.mp3', False)
-
 
 game.mixer.init()
 game.mixer.music.load('bis.wav')
@@ -12,7 +9,7 @@ game.mixer.music.play(999)
 
 os.system("color 0E")
 os.system("cls")
-print("Thank you for using AbhiQ Encrytor")
+print("Thank you for using AbhiQ Encryptor")
 x = input("Do You Have A Key? (yes - y and no - n)\n")
 if x == "y":
     key = input("Enter Your Key Here \n").encode()
